@@ -1,0 +1,42 @@
+.bg-red {
+    background-color: red;
+}
+
+.header {
+    min-height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+
+    text-align: center;
+    background: #a7bda5;
+
+}
+
+.logo img {
+    width: 100PX;
+    height: 100PX;
+    border-radius: 50%;
+    background: #6ca8da;
+}
+
+.menu {
+
+    background: #cfb767;
+    width: 50%;
+    text-align: center;
+
+}
+
+.menu ul {
+    list-style: none;
+
+}
+
+.menu li {
+    float: left;
+    margin: 20px;
+    text-align: center;
+}
