@@ -2,41 +2,126 @@
     background-color: red;
 }
 
-.header {
-    min-height: 100px;
+.Header {
+    min-height: 80px;
     display: flex;
     flex-direction: row;
+    background-color: #f7f4f4;
 }
 
 .logo {
-
-    text-align: center;
-    background: #a7bda5;
-
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo img {
-    width: 100PX;
-    height: 100PX;
     border-radius: 50%;
-    background: #6ca8da;
+    width: 80px;
+    height: 80px;
+    margin: 15px;
+}
+
+.logo h4 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: 30px;
+    margin: 15px 10px;
 }
 
 .menu {
-
-    background: #cfb767;
-    width: 50%;
     text-align: center;
+    display: flex;
+    justify-content: space-evenly;
 
 }
 
-.menu ul {
-    list-style: none;
+.navbar {
+
+    width: 100%;
+
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar-brand {
+    margin-left: 10px;
+    font-size: 25px;
+    font-weight: 550;
 
 }
 
-.menu li {
-    float: left;
-    margin: 20px;
-    text-align: center;
+.me-auto {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.nav-link {
+
+    padding-right: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+
+}
+
+.navbar-nav a {
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(49, 49, 63, 0.404);
+
+
+
+}
+
+.navbar a:hover {
+    color: rgba(49, 49, 63, 0.404);
+}
+
+.navbar-nav a:hover {
+    color: black;
+
+}
+
+.imgage-nav {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 2px;
+}
+
+.login-cart {
+
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+
+}
+
+.cart a {
+    color: rgba(49, 49, 63, 0.404);
+}
+
+.cart a:hover {
+    color: #000;
+}
+
+.login {
+    padding-left: 30px;
+}
+
+.login a {
+    color: rgba(49, 49, 63, 0.404);
+}
+
+.login a:hover {
+    color: #000;
+}
+
+.dropdown-item {
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
 }
