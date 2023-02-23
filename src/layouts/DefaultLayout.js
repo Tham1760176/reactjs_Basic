@@ -7,8 +7,8 @@ const DefaultLayout = ({ children }) => {
   return (
     <div>
       <Header />
-      {children}
       <Banner />
+      {children}
     </div>
   );
 };

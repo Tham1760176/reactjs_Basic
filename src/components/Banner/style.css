@@ -1,1 +1,11 @@
+.Banner {
+    min-height: 400px;
+    position: relative;
+}
 
+.carouselStyle {
+    height: '400px';
+    color: '#fff';
+    background: #99989841;
+    text-align: center;
+}
