@@ -12,7 +12,7 @@ const Header = () => {
     <Row className="Header">
       <Col md={3} className="logo">
         <img src="./images/logo.jpg" alt="" />
-        <h4>T BRAND</h4>
+        <h4>Go!..</h4>
       </Col>
       <Col md={7} className="menu">
         <Navbar>

@@ -4,8 +4,15 @@
 }
 
 .carouselStyle {
-    height: '400px';
+
     color: '#fff';
     background: #99989841;
     text-align: center;
+}
+
+.carouselStyle img {
+
+    margin: auto;
+    height: 500px;
+    width: 80%;
 }

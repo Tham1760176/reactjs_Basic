@@ -2,11 +2,15 @@
     background-color: red;
 }
 
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 .Header {
     min-height: 80px;
     display: flex;
     flex-direction: row;
-    background-color: #f7f4f4;
+    background-color: #fff;
 }
 
 .logo {
@@ -25,9 +29,10 @@
 }
 
 .logo h4 {
-    font-family: 'Courier New', Courier, monospace;
+    color: rgb(6, 204, 204);
+
     font-weight: 600;
-    font-size: 30px;
+    font-size: 60px;
     margin: 15px 10px;
 }
 
@@ -43,7 +48,7 @@
     width: 100%;
 
     text-transform: uppercase;
-    font-family: 'Courier New', Courier, monospace;
+
 }
 
 .navbar-brand {
@@ -63,7 +68,7 @@
 .nav-link {
 
     padding-right: 20px;
-    font-family: 'Courier New', Courier, monospace;
+
     position: relative;
 
 }
@@ -71,19 +76,27 @@
 .navbar-nav a {
     font-size: 16px;
     font-weight: 600;
-    color: rgba(49, 49, 63, 0.404);
+    color: #000;
 
 
 
 }
 
 .navbar a:hover {
-    color: rgba(49, 49, 63, 0.404);
+    color: rgb(6, 204, 204);
 }
 
 .navbar-nav a:hover {
-    color: black;
+    color: rgb(6, 204, 204);
 
+}
+
+.login-cart .cart a:hover {
+    color: rgb(6, 204, 204);
+}
+
+.login-cart .login a:hover {
+    color: rgb(6, 204, 204);
 }
 
 .imgage-nav {
@@ -122,6 +135,5 @@
 }
 
 .dropdown-item {
-    font-family: 'Courier New', Courier, monospace;
     text-transform: uppercase;
 }
