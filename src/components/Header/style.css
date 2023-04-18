@@ -7,10 +7,13 @@ body {
 }
 
 .Header {
+
     min-height: 80px;
     display: flex;
     flex-direction: row;
-    background-color: #fff;
+    background: #e4fbff;
+    font-family: 'Courier New', Courier, monospace;
+
 }
 
 .logo {
@@ -29,15 +32,15 @@ body {
 }
 
 .logo h4 {
-    color: rgb(6, 204, 204);
 
+    color: rgb(6, 204, 204);
     font-weight: 600;
     font-size: 60px;
     margin: 15px 10px;
 }
 
 .menu {
-    text-align: center;
+    /* text-align: center; */
     display: flex;
     justify-content: space-evenly;
 
@@ -136,4 +139,36 @@ body {
 
 .dropdown-item {
     text-transform: uppercase;
+}
+
+
+.subtours {
+    display: flex;
+    align-items: baseline !important;
+
+
+}
+
+
+
+.sub {
+    display: flex;
+
+    text-transform: none;
+
+}
+
+
+
+
+
+.sub:hover {
+    color: #000;
+}
+
+
+
+.services {
+    display: flex;
+    padding: 20px;
 }

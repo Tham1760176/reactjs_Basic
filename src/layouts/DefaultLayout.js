@@ -2,14 +2,16 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Header from '../components/Header';
 import Banner from '../components/Banner';
-import Collection from '../components/collection';
+import Search from '../components/Search';
+import Sale from '../components/Sale';
 
 const DefaultLayout = ({ children }) => {
   return (
     <div>
       <Header />
       <Banner />
-      <Collection />
+      <Search />
+      <Sale />
       {children}
     </div>
   );

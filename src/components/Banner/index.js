@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { Carousel } from 'antd';
 
 import './style.css';
@@ -14,17 +15,17 @@ const Banner = () => {
     <Carousel autoplay autoPlaySpeed={2000} effect="scrolly" {...carouselSettings}>
       <div className="carouselStyle">
         <h3>
-          <img src="./images/sale.webp" alt="" />
+          <img src="./images/banner2.jpg" alt="" />
         </h3>
       </div>
       <div className="carouselStyle">
         <h3>
-          <img src="./images/menbanner.png" alt="" />
+          <img src="./images/banner.jpg" alt="" />
         </h3>
       </div>
       <div className="carouselStyle">
         <h3>
-          <img src="./images/menbanner2.jpg" alt="" />
+          <img src="./images/banner3.png" alt="" />
         </h3>
       </div>
     </Carousel>
